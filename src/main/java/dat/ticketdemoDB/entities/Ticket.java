@@ -1,4 +1,4 @@
-package dat.ticketdemoDB;
+package dat.ticketdemoDB.entities;
 
 public class Ticket {
     

@@ -1,15 +1,11 @@
-package dat.ticketdemoDB;
+package dat.ticketdemoDB.servlets;
 
+import dat.ticketdemoDB.entities.Student;
+import dat.ticketdemoDB.entities.Ticket;
 import dat.ticketdemoDB.exceptions.DatabaseException;
-import dat.ticketdemoDB.persistance.Connector;
 import dat.ticketdemoDB.persistance.Datamapper;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

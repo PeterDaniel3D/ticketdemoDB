@@ -11,8 +11,8 @@
         <p>We will try to help in due order:</p>
         
         <ul>
-            <c:forEach var="ticket" items="${requestScope.waitinglist}">
-                <li>${ticket.students.name}</li>
+            <c:forEach varStatus="status" var="ticket" items="${requestScope.waitinglist}">
+                <li>${status.count}) ${ticket.students.name}</li>
             </c:forEach>
         </ul>
         

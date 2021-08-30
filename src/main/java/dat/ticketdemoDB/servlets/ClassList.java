@@ -1,4 +1,6 @@
-package dat.ticketdemoDB;
+package dat.ticketdemoDB.servlets;
+
+import dat.ticketdemoDB.entities.Student;
 
 import java.io.IOException;
 import java.util.ArrayList;

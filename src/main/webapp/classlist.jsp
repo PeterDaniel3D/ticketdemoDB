@@ -9,8 +9,8 @@
     <body>
         <h1>Class list</h1>
         <ul>
-            <c:forEach var="student" items="${requestScope.classlist}">
-                <li>${student.name}</li>
+            <c:forEach varStatus="status" var="student" items="${requestScope.classlist}">
+                <li>${status.count}) ${student.name}</li>
             </c:forEach>
         </ul>
         

@@ -1,8 +1,8 @@
 package dat.ticketdemoDB.persistance;
 
 import dat.ticketdemoDB.exceptions.DatabaseException;
-import dat.ticketdemoDB.Student;
-import dat.ticketdemoDB.Ticket;
+import dat.ticketdemoDB.entities.Student;
+import dat.ticketdemoDB.entities.Ticket;
 
 import java.sql.*;
 import java.util.ArrayList;
